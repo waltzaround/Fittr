@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Calibre-Bold';
+  src: url('Calibre-Bold.eot?#iefix') format('embedded-opentype'),  url('Calibre-Bold.otf')  format('opentype'),
+	     url('Calibre-Bold.woff') format('woff'), url('Calibre-Bold.ttf')  format('truetype'), url('Calibre-Bold.svg#Calibre-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
