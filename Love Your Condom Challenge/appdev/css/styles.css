@@ -1,5 +1,14 @@
 
 
+    .condomContainer {
+        width: 100%;
+        max-width: 800px;
+    }
+    .condomImages {
+        float: left;
+        width: 33%;
+    }
+
 
 /*Desktop*/
 @media screen and (min-width: 752px) {
@@ -80,70 +89,7 @@ input[type='submit'] {
   margin-right: 8px;
 }
 
-#condom1 {
-	background-image: url("images/condom1.png");
-	height:170px;
-	width:170px;
-
-}
-#condom2 {
-	background-image: url("images/condom2.png");
-	height:170px;
-	width:170px;
-	float:;
-}
-#condom3 {
-	background-image: url("images/condom3.png");
-	height:170px;
-	width:170px;
-}
-#condom4 {
-	background-image: url("images/condom4.png");
-	height:170px;
-	width:170px;
-}
-#condom5 {
-	background-image: url("images/condom5.png");
-	height:170px;
-	width:170px;
-}
-#condom6 {
-	background-image: url("images/condom6.png");
-	height:170px;
-	width:170px;
-}
-#condom7 {
-	background-image: url("images/condom7.png");
-	height:170px;
-	width:170px;
-}
-#condom8 {
-	background-image: url("images/condom8.png");
-	height:170px;
-	width:170px;
-}
-#condom9 {
-	background-image: url("images/condom9.png");
-	height:170px;
-	width:170px;
-}
-#condom10 {
-	background-image: url("images/condom10.png");
-	height:170px;
-	width:170px;
-}
-#condom11 {
-	background-image: url("images/condom11.png");
-	height:170px;
-	width:170px;
-}
-#condom12 {
-	background-image: url("images/condom12.png");
-	height:170px;
-	width:170px;
-}
-
-
+    
 
 
 
