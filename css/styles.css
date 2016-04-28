@@ -1,0 +1,215 @@
+
+
+
+/*Desktop*/
+@media screen and (min-width: 752px) {
+
+html {
+	background-color: #141717;
+}
+
+
+@font-face { font-family: 'Calibre-Regular'; src: url('webfonts/Calibre-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face {
+  font-family: 'Calibre-Bold'; src: url('webfonts/Calibre-Bold.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+body {
+  font-family: 'Calibre-Regular', serif;
+  font-size: 48px;
+  color: #ffffff;
+  padding: 5rem 0 0 5rem;
+
+}
+
+h1 {
+	font-family: 'Calibre-Bold';
+	font-size: 7rem;
+	color: #ffbe0a;
+	margin-bottom: 0px;
+}
+
+p {
+	  margin-top: 0px;
+}
+
+#startButton {
+	background-color: #ca0083;
+	color: #ffffff;
+	font-family: 'Calibre-Bold';
+	border-radius: 15px;
+	width: 12rem;
+	height: 5rem;
+	font-size: 3rem;
+	background-image: none;
+	border: 0px;
+}
+
+#phase1 {
+	z-index: 1;
+}
+
+/* import things here below*/
+
+#phase2 {
+	z-index: -1;
+	opacity: 1;
+}
+
+#durex {
+	background-image: url("images/durex.png");
+	width:286px;
+	height:290px;
+}
+
+input[type='submit'] {
+  -webkit-appearance: none;
+}
+
+
+.condomSelect {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+}
+
+#condom1 {
+	background-image: url("images/condom1.png");
+	height:170px;
+	width:170px;
+
+}
+#condom2 {
+	background-image: url("images/condom2.png");
+	height:170px;
+	width:170px;
+	float:;
+}
+#condom3 {
+	background-image: url("images/condom3.png");
+	height:170px;
+	width:170px;
+}
+#condom4 {
+	background-image: url("images/condom4.png");
+	height:170px;
+	width:170px;
+}
+#condom5 {
+	background-image: url("images/condom5.png");
+	height:170px;
+	width:170px;
+}
+#condom6 {
+	background-image: url("images/condom6.png");
+	height:170px;
+	width:170px;
+}
+#condom7 {
+	background-image: url("images/condom7.png");
+	height:170px;
+	width:170px;
+}
+#condom8 {
+	background-image: url("images/condom8.png");
+	height:170px;
+	width:170px;
+}
+#condom9 {
+	background-image: url("images/condom9.png");
+	height:170px;
+	width:170px;
+}
+#condom10 {
+	background-image: url("images/condom10.png");
+	height:170px;
+	width:170px;
+}
+#condom11 {
+	background-image: url("images/condom11.png");
+	height:170px;
+	width:170px;
+}
+#condom12 {
+	background-image: url("images/condom12.png");
+	height:170px;
+	width:170px;
+}
+
+
+
+
+
+
+
+
+
+} /* End of desktop */
+
+/*mobile */
+@media screen and (max-width: 752px) {
+
+
+html {
+	background-color: #141717;
+}
+
+
+@font-face { font-family: 'Calibre-Regular'; src: url('webfonts/Calibre-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@font-face {
+  font-family: 'Calibre-Bold'; src: url('webfonts/Calibre-Bold.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Calibre', serif;
+
+  color: #ffffff;
+  padding: 1rem 5rem 0 1rem;
+
+}
+
+h1 {
+	font-family: 'Calibre';
+	font-size: 5rem;
+	color: #ffbe0a;
+	margin-bottom: 0px;
+}
+
+p {
+	margin-top: 0px;
+	font-size: 2rem;
+}
+
+#startButton {
+	background-color: #ca0083;
+	color: #ffffff;
+	font-family: 'Calibre';
+	border-radius: 15px;
+	width: 12rem;
+	height: 5rem;
+	font-size: 2rem;
+	background-image: none;
+	border: 0px
+
+}
+input[type='submit'] {
+  -webkit-appearance: none;
+}
+
+#start {
+	z-index: 1;
+}
+
+
+} /*end of mobile */
