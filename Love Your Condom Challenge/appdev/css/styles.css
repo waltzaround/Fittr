@@ -1,20 +1,33 @@
+/*Global CSS */
 
+html {
+	background-color: #141717;
+}
 
     .condomContainer {
+    	padding-top: 40px;
         width: 100%;
         max-width: 600px;
+        min-width: 200px;
     }
     .condomImages {
         float: left;
         width: 33%;
     }
 
+    .condomRow {
+    	width: 100%;
+    	clear: both;
+    }
 
-/*Desktop*/
-@media screen and (min-width: 752px) {
-
-html {
-	background-color: #141717;
+    #phase1 {
+	z-index: 1;
+}
+#phase2 {
+	z-index: -1;
+	opacity: 0;
+	top: 20px;
+	position: absolute;
 }
 
 
@@ -26,7 +39,10 @@ html {
   font-style: normal;
 }
 
+/*end global css */
 
+/*Desktop*/
+@media screen and (min-width: 752px) {
 
 
 body {
@@ -60,16 +76,10 @@ p {
 	border: 0px;
 }
 
-#phase1 {
-	z-index: 1;
-}
+
 
 /* import things here below*/
 
-#phase2 {
-	z-index: -1;
-	opacity: 1;
-}
 
 #durex {
 	background-image: url("images/durex.png");
@@ -101,20 +111,6 @@ input[type='submit'] {
 
 /*mobile */
 @media screen and (max-width: 752px) {
-
-
-html {
-	background-color: #141717;
-}
-
-
-@font-face { font-family: 'Calibre-Regular'; src: url('webfonts/Calibre-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-
-@font-face {
-  font-family: 'Calibre-Bold'; src: url('webfonts/Calibre-Bold.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 
 body {
@@ -156,6 +152,9 @@ input[type='submit'] {
 #start {
 	z-index: 1;
 }
-
+#title2 {
+	font-size: 3rem;
+	padding-bottom: 2rem;
+}
 
 } /*end of mobile */
