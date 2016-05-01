@@ -1,219 +1,198 @@
 /*Global CSS */
 
 html {
-	background-color: #141717;
+    background-color: #141717;
 }
 
-    .condomContainer {
-    	padding-top: 40px;
-        width: 100%;
-        max-width: 600px;
-        min-width: 200px;
-    }
-    .condomImages {
-        float: left;
-        width: 33%;
-    }
-
-    .condomRow {
-    	width: 100%;
-    	clear: both;
-    }
-
-    #phase1 {
-	z-index: 1;
+.condomContainer {
+    padding-top: 40px;
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
 }
+
+.condomImages {
+    float: left;
+    width: 33%;
+}
+
+.condomRow {
+    width: 100%;
+    clear: both;
+}
+
+#phase1 {
+    z-index: 1;
+}
+
 #phase2 {
-	z-index: -1;
-	opacity: 0;
-	top: 20px;
-	position: absolute;
+    z-index: -1;
+    opacity: 0;
+    top: 20px;
+    position: absolute;
 }
-
 
 #phase3 {
-	opacity: 0;
-	z-index: -3;
-	position: absolute;
-	top: 2%;
-	left: 8%;
+    opacity: 0;
+    z-index: -3;
+    position: absolute;
+    top: 2%;
+    left: 8%;
 }
+
 #title3 {
-	font-size: 2rem;
-	padding-bottom: 2rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 .condomclass {
-	color: #ffffff;
-	font-family: 'Calibre-Bold';
-	border-radius: 10px;
-	width: 14rem;
-	height: 4.4rem;
-	font-size: 1.6rem;
-	background-image: none;
-	border: 0px;
-	margin-top: 2rem;
-}    
+    color: #ffffff;
+    font-family: 'Calibre-Bold';
+    border-radius: 10px;
+    width: 14rem;
+    height: 4.4rem;
+    font-size: 1.6rem;
+    background-image: none;
+    border: 0px;
+    margin-top: 2rem;
+}
 
-#betterfit{
-		background-color: #00c4df;
+#betterfit {
+    background-color: #00c4df;
 }
 
 #excitement {
-		background-color: #ca0083;
+    background-color: #ca0083;
 }
+
 #irritation {
-		background-color: #5ea818;
+    background-color: #5ea818;
 }
-
-
-@font-face { font-family: 'Calibre-Regular'; src: url('webfonts/Calibre-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 
 @font-face {
-  font-family: 'Calibre-Bold'; src: url('webfonts/Calibre-Bold.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Calibre-Regular';
+    src: url('webfonts/Calibre-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'Calibre-Bold';
+    src: url('webfonts/Calibre-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Calibre-Bold';
+    font-size: 7rem;
+    color: #ffbe0a;
+    margin-bottom: 0px;
+}
+
+#startButton {
+    background-color: #ca0083;
+    color: #ffffff;
+    font-family: 'Calibre-Regular';
+    line-height: 5.4rem;
+    border-radius: 15px;
+    width: 12rem;
+    height: 5rem;
+    font-size: 3rem;
+    background-image: none;
+    border: 0px;
+}
+
+body {
+    font-family: 'Calibre-Regular', serif;
+    font-size: 48px;
+    color: #ffffff;
+    padding: 5rem 0 0 5rem;
+    width: 100%;
+    height: 100px;
+}
 
 
 /*end global css */
 
+
 /*Desktop*/
+
 @media screen and (min-width: 752px) {
-
-
-body {
-  font-family: 'Calibre-Regular', serif;
-  font-size: 48px;
-  color: #ffffff;
-  padding: 5rem 0 0 5rem;
-  width: 100%;
-  height: 100px;
-
-}
-
-h1 {
-	font-family: 'Calibre-Bold';
-	font-size: 7rem;
-	color: #ffbe0a;
-	margin-bottom: 0px;
-}
-
-p {
-	  margin-top: 0px;
-}
-
-#startButton {
-	background-color: #ca0083;
-	color: #ffffff;
-	font-family: 'Calibre-Bold';
-	border-radius: 15px;
-	width: 12rem;
-	height: 5rem;
-	font-size: 3rem;
-	background-image: none;
-	border: 0px;
-}
-
-
-
-/* import things here below*/
-
-/*
+    p {
+        margin-top: 0px;
+    }
+    /* import things here below*/
+    /*
 #durex {
 	background-image: url("images/durex.png");
 	width:286px;
 	height:290px;
 }
 */
-input[type='submit'] {
-  -webkit-appearance: none;
+    input[type='submit'] {
+        -webkit-appearance: none;
+    }
+    .condomSelect {
+        display: inline-block;
+        margin-bottom: 8px;
+        width: calc(50% - 4px);
+        margin-right: 8px;
+    }
 }
 
 
-.condomSelect {
-  display: inline-block;
-  margin-bottom: 8px;
-  width: calc(50% - 4px);
-  margin-right: 8px;
-}
+/* End of desktop */
 
-
-
-
-
-
-
-
-} /* End of desktop */
 
 /*mobile */
+
 @media screen and (max-width: 752px) {
-
-
-body {
-  font-family: 'Calibre', serif;
-
-  color: #ffffff;
-  padding: 1rem 5rem 0 1rem;
-
-}
-
-h1 {
-	font-family: 'Calibre';
-	font-size: 5rem;
-	color: #ffbe0a;
-	margin-bottom: 0px;
-}
-
-p {
-	margin-top: 0px;
-	font-size: 2rem;
-}
-
-#startButton {
-	background-color: #ca0083;
-	color: #ffffff;
-	font-family: 'Calibre';
-	border-radius: 15px;
-	width: 12rem;
-	height: 5rem;
-	font-size: 2rem;
-	background-image: none;
-	border: 0px
-
-}
-input[type='submit'] {
-  -webkit-appearance: none;
-}
-
-#start {
-	z-index: 1;
-}
-#title2 {
-	font-size: 3rem;
-	padding-bottom: 2rem;
-}
-
-
-#nocondom {
-	background-color: #ca0083;
-	color: #ffffff;
-	font-family: 'Calibre-Bold';
-	border-radius: 15px;
-	width: 10rem;
-	height: 2rem;
-	font-size: 0.8rem;
-	background-image: none;
-	border: 0px;
-}    
-
+    body {
+        padding: 1rem 5rem 0 1rem;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    p {
+        margin-top: 0px;
+        font-size: 2rem;
+    }
+    #startButton {
+        font-size: 2rem;
+        line-height: 4rem;
+        border-radius: 15px;
+        width: 10rem;
+        height: 4rem;
+    }
+    input[type='submit'] {
+        -webkit-appearance: none;
+    }
+    #start {
+        z-index: 1;
+    }
+    #title2 {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    #nocondom {
+        background-color: #ca0083;
+        color: #ffffff;
+        font-family: 'Calibre-Bold';
+        border-radius: 15px;
+        width: 10rem;
+        height: 2rem;
+        font-size: 0.8rem;
+        background-image: none;
+        border: 0px;
+    }
     .condomContainer {
-    	padding-top: 0px;
+        padding-top: 0px;
         width: 100%;
         max-width: 600px;
         min-width: 200px;
     }
+}
 
-} /*end of mobile */
+
+/*end of mobile */
