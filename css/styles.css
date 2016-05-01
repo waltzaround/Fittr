@@ -1,11 +1,69 @@
-
-
-
-/*Desktop*/
-@media screen and (min-width: 752px) {
+/*Global CSS */
 
 html {
 	background-color: #141717;
+}
+
+    .condomContainer {
+    	padding-top: 40px;
+        width: 100%;
+        max-width: 600px;
+        min-width: 200px;
+    }
+    .condomImages {
+        float: left;
+        width: 33%;
+    }
+
+    .condomRow {
+    	width: 100%;
+    	clear: both;
+    }
+
+    #phase1 {
+	z-index: 1;
+}
+#phase2 {
+	z-index: -1;
+	opacity: 0;
+	top: 20px;
+	position: absolute;
+}
+
+
+#phase3 {
+	opacity: 0;
+	z-index: -3;
+	position: absolute;
+	top: 2%;
+	left: 8%;
+}
+#title3 {
+	font-size: 2rem;
+	padding-bottom: 2rem;
+}
+
+.condomclass {
+	color: #ffffff;
+	font-family: 'Calibre-Bold';
+	border-radius: 10px;
+	width: 14rem;
+	height: 4.4rem;
+	font-size: 1.6rem;
+	background-image: none;
+	border: 0px;
+	margin-top: 2rem;
+}    
+
+#betterfit{
+		background-color: #00c4df;
+}
+
+#excitement {
+		background-color: #ca0083;
+}
+#irritation {
+		background-color: #5ea818;
 }
 
 
@@ -19,12 +77,19 @@ html {
 
 
 
+/*end global css */
+
+/*Desktop*/
+@media screen and (min-width: 752px) {
+
 
 body {
   font-family: 'Calibre-Regular', serif;
   font-size: 48px;
   color: #ffffff;
   padding: 5rem 0 0 5rem;
+  width: 100%;
+  height: 100px;
 
 }
 
@@ -51,23 +116,17 @@ p {
 	border: 0px;
 }
 
-#phase1 {
-	z-index: 1;
-}
+
 
 /* import things here below*/
 
-#phase2 {
-	z-index: -1;
-	opacity: 1;
-}
-
+/*
 #durex {
 	background-image: url("images/durex.png");
 	width:286px;
 	height:290px;
 }
-
+*/
 input[type='submit'] {
   -webkit-appearance: none;
 }
@@ -80,70 +139,6 @@ input[type='submit'] {
   margin-right: 8px;
 }
 
-#condom1 {
-	background-image: url("images/condom1.png");
-	height:170px;
-	width:170px;
-
-}
-#condom2 {
-	background-image: url("images/condom2.png");
-	height:170px;
-	width:170px;
-	float:;
-}
-#condom3 {
-	background-image: url("images/condom3.png");
-	height:170px;
-	width:170px;
-}
-#condom4 {
-	background-image: url("images/condom4.png");
-	height:170px;
-	width:170px;
-}
-#condom5 {
-	background-image: url("images/condom5.png");
-	height:170px;
-	width:170px;
-}
-#condom6 {
-	background-image: url("images/condom6.png");
-	height:170px;
-	width:170px;
-}
-#condom7 {
-	background-image: url("images/condom7.png");
-	height:170px;
-	width:170px;
-}
-#condom8 {
-	background-image: url("images/condom8.png");
-	height:170px;
-	width:170px;
-}
-#condom9 {
-	background-image: url("images/condom9.png");
-	height:170px;
-	width:170px;
-}
-#condom10 {
-	background-image: url("images/condom10.png");
-	height:170px;
-	width:170px;
-}
-#condom11 {
-	background-image: url("images/condom11.png");
-	height:170px;
-	width:170px;
-}
-#condom12 {
-	background-image: url("images/condom12.png");
-	height:170px;
-	width:170px;
-}
-
-
 
 
 
@@ -155,20 +150,6 @@ input[type='submit'] {
 
 /*mobile */
 @media screen and (max-width: 752px) {
-
-
-html {
-	background-color: #141717;
-}
-
-
-@font-face { font-family: 'Calibre-Regular'; src: url('webfonts/Calibre-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-
-@font-face {
-  font-family: 'Calibre-Bold'; src: url('webfonts/Calibre-Bold.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 
 body {
@@ -210,6 +191,29 @@ input[type='submit'] {
 #start {
 	z-index: 1;
 }
+#title2 {
+	font-size: 3rem;
+	padding-bottom: 2rem;
+}
 
+
+#nocondom {
+	background-color: #ca0083;
+	color: #ffffff;
+	font-family: 'Calibre-Bold';
+	border-radius: 15px;
+	width: 10rem;
+	height: 2rem;
+	font-size: 0.8rem;
+	background-image: none;
+	border: 0px;
+}    
+
+    .condomContainer {
+    	padding-top: 0px;
+        width: 100%;
+        max-width: 600px;
+        min-width: 200px;
+    }
 
 } /*end of mobile */
